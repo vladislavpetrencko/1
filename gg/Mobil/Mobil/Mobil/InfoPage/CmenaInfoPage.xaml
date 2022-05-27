@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.InfoPage.CmenaInfoPage" Title="{Binding CurrentCmena.ФИО}">
+    <ScrollView>
+        <StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label TextColor="Black" FontSize="Medium" Text="Основна профессия:" />
+                <Label TextColor="Black" FontSize="Medium" TextDecorations="Underline"  Text="{Binding CurrentCmena.ОсновнаяПрофессия}"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+            <Label TextColor="Black" FontSize="Medium" Text="Разряд профессии:" />
+                <Label TextColor="Black" FontSize="Medium" TextDecorations="Underline" Text="{Binding CurrentCmena.Разряд}"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Label TextColor="Black" FontSize="Medium" Text="Вторая профессия:" />
+                <Label TextColor="Black" FontSize="Medium" TextDecorations="Underline" Text="{Binding CurrentCmena.ВторостепенныеПрофессии}"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Label TextColor="Black" FontSize="Medium" Text="Разряд второй профессии:" />
+                <Label TextColor="Black" FontSize="Medium" TextDecorations="Underline" Text="{Binding CurrentCmena.РазрядВторостепенных}"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Label TextColor="Black" FontSize="Medium" Text="Техника безопасности:" />
+                <Label TextColor="Black" FontSize="Medium" TextDecorations="Underline" Text="{Binding CurrentCmena.ТБ}"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Label TextColor="Black" FontSize="Medium" Text="Дата окончания техники безопасности:" />
+                <Label TextColor="Black" FontSize="Medium" TextDecorations="Underline" Text="{Binding CurrentCmena.ДатаОкончанияТБ}"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Label TextColor="Black" FontSize="Medium" Text="Профессиональный &#10;допуск:" />
+                <Label TextColor="Black" FontSize="Medium" TextDecorations="Underline" Text="{Binding CurrentCmena.Допуски}"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+            <Label TextColor="Black" FontSize="Medium" Text="Дата окончания допусков:" />
+                <Label TextColor="Black" FontSize="Medium" TextDecorations="Underline" Text="{Binding CurrentCmena.ДатаОкончанияДопуска}"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

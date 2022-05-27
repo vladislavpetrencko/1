@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.Page.OpovePage"
+             Title="Заявки">
+    <StackLayout>
+
+        <ListView x:Name="OpovesList" ItemsSource="{Binding Opoves}"
+              SelectedItem="{Binding SelectedOpove, Mode=TwoWay}" HasUnevenRows="True" SeparatorColor="Black">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <Label TextColor="Black" Text="Номер станка:" FontSize="Medium" Padding="3,20,0,20"/>
+                                <Label TextColor="Black" Text="{Binding НомерСтанка}" FontSize="Medium" Padding="3,20,0,20"/>
+
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Добавить" Command="{Binding CreateOpoveCommand}" IsEnabled="{Binding IsLoaded}" />
+        <StackLayout IsVisible="{Binding IsBusy}"
+                    HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Padding="20">
+            <Label Text="Загрузка данных..." TextColor="Gray" HorizontalOptions="Center" />
+            <ActivityIndicator IsRunning="{Binding IsBusy}" Color="Red" >
+            </ActivityIndicator>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

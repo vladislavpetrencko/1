@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.AddPage.OpoveAddPage" Title="Создание заявки">
+    <StackLayout>
+        <StackLayout>
+            <Label TextColor="Black" Text="Номер станка:" />
+            <Entry TextColor="Black" Text="{Binding Path=Model.НомерСтанка}" FontSize="Medium" />
+            <Label TextColor="Black" Text="ФИО работника:" />
+            <Picker ItemsSource="{Binding ViewModel.CmenaS}" ItemDisplayBinding="{Binding Path = Сокращение}" SelectedItem="{Binding ViewModel.Selected1}" FontSize="Medium"/>
+            <Label TextColor="Black" Text="Описание поломки:" />
+            <Editor TextColor="Black" HeightRequest="200" Text="{Binding Path=Model.ОписаниеПоломки}" FontSize="Medium" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Button Text="Сохранить" Command="{Binding ViewModel.SaveOpoveCommand}" CommandParameter="{Binding Model}" />
+            <Button Text="Удалить" Command="{Binding ViewModel.DeleteOpoveCommand}" CommandParameter="{Binding Model}" />
+            <Button Text="Назад" Command="{Binding Path=ViewModel.BackCommand}" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

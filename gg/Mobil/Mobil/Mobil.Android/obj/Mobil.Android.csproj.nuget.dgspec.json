@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\VIL\\Desktop\\Cо сканером\\Mobil\\Mobil\\Mobil.Android\\Mobil.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\VIL\\Desktop\\Cо сканером\\Mobil\\Mobil\\Mobil.Android\\Mobil.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VIL\\Desktop\\Cо сканером\\Mobil\\Mobil\\Mobil.Android\\Mobil.Android.csproj",
+        "projectName": "Mobil.Android",
+        "projectPath": "C:\\Users\\VIL\\Desktop\\Cо сканером\\Mobil\\Mobil\\Mobil.Android\\Mobil.Android.csproj",
+        "packagesPath": "C:\\Users\\VIL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VIL\\Desktop\\Cо сканером\\Mobil\\Mobil\\Mobil.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\VIL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid12.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid12.0": {
+            "projectReferences": {
+              "C:\\Users\\VIL\\Desktop\\Cо сканером\\Mobil\\Mobil\\Mobil\\Mobil.csproj": {
+                "projectPath": "C:\\Users\\VIL\\Desktop\\Cо сканером\\Mobil\\Mobil\\Mobil\\Mobil.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\VIL\\Desktop\\Cо сканером\\Mobil\\Mobil\\Mobil\\Mobil.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VIL\\Desktop\\Cо сканером\\Mobil\\Mobil\\Mobil\\Mobil.csproj",
+        "projectName": "Mobil",
+        "projectPath": "C:\\Users\\VIL\\Desktop\\Cо сканером\\Mobil\\Mobil\\Mobil\\Mobil.csproj",
+        "packagesPath": "C:\\Users\\VIL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VIL\\Desktop\\Cо сканером\\Mobil\\Mobil\\Mobil\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VIL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

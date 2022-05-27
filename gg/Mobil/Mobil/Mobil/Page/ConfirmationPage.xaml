@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.Page.ConfirmationPage"
+             Title="Качество">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="IstZadanis" ItemsSource="{Binding Zadanis}" HasUnevenRows="True"
+                      ItemTapped="IstZadanis_ItemTapped" SeparatorColor="Black">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label TextColor="Black" Text="Название задания:" FontSize="Medium" Padding="3,20,0,20"/>
+                                    <Label TextColor="Black" Text="{Binding Название}" FontSize="Medium" Padding="0,20,0,20"/>
+                                    <Label TextColor="Black" Text="Допуск:" FontSize="Medium" Padding="0,20,0,20"/>
+                                    <Label TextColor="Black" Text="{Binding Допуски}" FontSize="Medium" Padding="0,20,0,20"/>
+
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

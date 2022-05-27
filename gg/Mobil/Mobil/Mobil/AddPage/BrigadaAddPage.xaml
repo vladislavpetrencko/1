@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.AddPage.BrigadaAddPage" Title="Создание бригады">
+    <StackLayout>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="Название Бригады:" />
+            <Entry Text="{Binding Path=Model.Название}" FontSize="Medium" />
+            <Label Text="Бригадир:" />
+            <Picker ItemsSource="{Binding ViewModel.CmenaS}" ItemDisplayBinding="{Binding Path = Сокращение}" SelectedItem="{Binding ViewModel.Selected1}" FontSize="Medium"/>
+            <Label Text="Первый работник:" />
+            <Picker ItemsSource="{Binding ViewModel.CmenaS}" ItemDisplayBinding="{Binding Path = Сокращение}" SelectedItem="{Binding ViewModel.Selected2}" FontSize="Medium"/>
+            <Label Text="Второй работник:" />
+            <Picker ItemsSource="{Binding ViewModel.CmenaS}" ItemDisplayBinding="{Binding Path = Сокращение}" SelectedItem="{Binding ViewModel.Selected3}" FontSize="Medium"/>
+            <Label Text="Третий работник:" />
+            <Picker ItemsSource="{Binding ViewModel.CmenaS}" ItemDisplayBinding="{Binding Path = Сокращение}" SelectedItem="{Binding ViewModel.Selected4}" FontSize="Medium"/>
+            <Label Text="Четвёрты работник:" />
+            <Picker ItemsSource="{Binding ViewModel.CmenaS}" ItemDisplayBinding="{Binding Path = Сокращение}" SelectedItem="{Binding ViewModel.Selected5}" FontSize="Medium"/>
+            <Label Text="Пятый работник:" />
+            <Picker ItemsSource="{Binding ViewModel.CmenaS}" ItemDisplayBinding="{Binding Path = Сокращение}" SelectedItem="{Binding ViewModel.Selected6}" FontSize="Medium"/>
+            </StackLayout>
+            </ScrollView>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Button Text="Сохранить" Command="{Binding ViewModel.SaveBrigadaCommand}" CommandParameter="{Binding Model}" />
+            <Button Text="Удалить" Command="{Binding ViewModel.DeleteBrigadaCommand}" CommandParameter="{Binding Model}" />
+            <Button Text="Назад" Command="{Binding Path=ViewModel.BackCommand}" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

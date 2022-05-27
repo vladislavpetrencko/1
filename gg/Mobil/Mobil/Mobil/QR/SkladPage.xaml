@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.QR.SkladPage">
+    <StackLayout>
+        <StackLayout>
+            <Label FontSize="Medium" TextColor="Black" Text="Дата отгрузки:"></Label>
+            <Entry FontSize="Medium" TextColor="Black"></Entry>
+            <Label FontSize="Medium" TextColor="Black" Text="Номер склада:"></Label>
+            <Entry FontSize="Medium" TextColor="Black"></Entry>
+        </StackLayout>
+        <StackLayout>
+            <Button Clicked="Button_Clicked" Text="Отправить"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

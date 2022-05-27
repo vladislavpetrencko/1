@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.InfoPage.ConfirmationInfoPage" Title="Подробная информация">
+   
+   <StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label TextColor="Black" Text="Название задания:" FontSize="Medium"/>
+            <Label TextColor="Black" FontSize="Medium" TextDecorations="Underline" Text="{Binding CurrentConfirmation.Название}"/>
+        </StackLayout>
+
+
+        <StackLayout Orientation="Horizontal">
+            <Label TextColor="Black" Text="Описание:" FontSize="Medium"/>
+            <Label TextColor="Black" FontSize="Medium" TextDecorations="Underline" Text="{Binding CurrentConfirmation.Описание}"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label TextColor="Black" Text="Допуск:" FontSize="Medium"/>
+            <Label TextColor="Black" FontSize="Medium" TextDecorations="Underline" Text="{Binding CurrentConfirmation.Допуски}"/>
+        </StackLayout>
+       
+        <StackLayout HorizontalOptions="Center">
+            <Button Text="Сканировать код" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+   </StackLayout>
+    
+</ContentPage>

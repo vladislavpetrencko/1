@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.Page.shtorka"
+             >
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master" BackgroundColor="#2196F3">
+            <ContentPage.Content>
+                <StackLayout Padding="5,30,5,5">
+                    <Button Text="Список смены" Clicked="Button1_Click"></Button>
+                    <Button Text="Задания" Clicked="Button2_Click"></Button>
+                    <Button Text="Бригады" Clicked="Button3_Click"></Button>
+                    <Button Text="Качество" Clicked="Button4_Click"></Button>
+                    <Button Text="Заявки" Clicked="Button5_Click"></Button>
+                    <Button Text="Выход" Clicked="Button_Clicked" VerticalOptions="End"></Button>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+
+    <MasterDetailPage.Detail>
+        <ContentPage >
+            <ContentPage.Content>
+                <Label Text="DetailPage" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

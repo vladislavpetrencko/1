@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.Page.CmenaPage"
+             Title="Список смены">
+    <ContentPage.Content>
+        <StackLayout >
+
+
+            <ListView x:Name="IstCmenas" ItemsSource="{Binding Cmenas}" 
+                      ItemTapped="IstCmenas_ItemTapped" HasUnevenRows="True" SeparatorColor="Black">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Horizontal" >
+                                    <Label TextColor="Black" Text="{Binding Сокращение}" FontSize="Medium" Padding="3,20,1,20" />
+                                    <Label TextColor="Black" Text="Профессия:" FontSize="Medium" Padding="0,20,0,20"/>
+                                    <Label TextColor="Black" Text="{Binding ОсновнаяПрофессия}" FontSize="Medium" Padding="0,20,0,20" />
+                                    <!--<Label Text="{Binding ТБ}" HorizontalOptions="End" FontSize="Medium" />-->
+
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

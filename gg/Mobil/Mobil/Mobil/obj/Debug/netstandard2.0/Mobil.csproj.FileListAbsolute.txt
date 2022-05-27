@@ -1,0 +1,57 @@
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.csproj.AssemblyReference.cache
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Page\BrigadaPage.xaml.g.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Page\CmenaPage.xaml.g.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Page\ConfirmationPage.xaml.g.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Page\OpovePage.xaml.g.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Page\shtorka.xaml.g.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Page\ZadaniPage.xaml.g.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.AssemblyInfoInputs.cache
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.AssemblyInfo.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.csproj.CoreCompileInputs.cache
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\bin\Debug\netstandard2.0\Mobil.deps.json
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\bin\Debug\netstandard2.0\Mobil.dll
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\bin\Debug\netstandard2.0\Mobil.pdb
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.dll
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\refint\Mobil.dll
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.pdb
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\ref\Mobil.dll
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\AddPage\BrigadaAddPage.xaml.g.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\AddPage\OpoveAddPage.xaml.g.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\InfoPage\CmenaInfoPage.xaml.g.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\InfoPage\ConfirmationInfoPage.xaml.g.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\InfoPage\ZadaniInfoPage.xaml.g.cs
+C:\Users\VIL\Desktop\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\AddPage\ConfirAddPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\bin\Debug\netstandard2.0\Mobil.deps.json
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\bin\Debug\netstandard2.0\Mobil.dll
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\bin\Debug\netstandard2.0\Mobil.pdb
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.csproj.AssemblyReference.cache
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\AddPage\BrigadaAddPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\AddPage\ConfirAddPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\AddPage\OpoveAddPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\InfoPage\CmenaInfoPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\InfoPage\ConfirmationInfoPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\InfoPage\ZadaniInfoPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Page\BrigadaPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Page\CmenaPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Page\ConfirmationPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Page\OpovePage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Page\shtorka.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Page\ZadaniPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.AssemblyInfoInputs.cache
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.AssemblyInfo.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.csproj.CoreCompileInputs.cache
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.dll
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\refint\Mobil.dll
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\Mobil.pdb
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\ref\Mobil.dll
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\InfoPage\TestPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\QR\BrakPage.xaml.g.cs
+C:\Users\VIL\Desktop\Cо сканером\Mobil\Mobil\Mobil\obj\Debug\netstandard2.0\QR\SkladPage.xaml.g.cs
